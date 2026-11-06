@@ -118,7 +118,7 @@
   left: 16px;
   transform: translateY(-50%);
   color: #2e2f42;
-  transition: fill 250ms linear;
+  transition: color 250ms linear;
 }
 
 .review-form-field:focus + .review-form-field-icon {
