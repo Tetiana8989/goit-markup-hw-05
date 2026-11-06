@@ -52,13 +52,13 @@
   border-radius: 50%;
   background-color:  #e7e9fc;
   cursor: pointer;
-  fill: #2e2f42;
-  transition: fill 250ms linear, background-color 250ms linear;
+  color: #2e2f42;
+  transition: color 250ms linear, background-color 250ms linear;
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  fill: #ffffff;
+  color: #ffffff;
   background-color: #404bbf;
 }
 
@@ -98,9 +98,10 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
-  font-size: 12px;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   box-sizing: border-box;
   transition: border-color 250ms linear;
 }
@@ -116,12 +117,12 @@
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  fill: #2e2f42;
+  color: #2e2f42;
   transition: fill 250ms linear;
 }
 
 .review-form-field:focus + .review-form-field-icon {
-  fill: #4d5ae5;
+  color: #4d5ae5;
 }
 
 /* КОМЕНТАР */
@@ -137,7 +138,7 @@
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: #434455;
   resize: none;
   box-sizing: border-box;
   transition: border-color 250ms linear;
@@ -192,7 +193,8 @@
 }
 
 .review-form-check-icon {
-  fill: transparent;
+  fill: currentColor;
+  color: transparent;
 }
 
 .review-form-policy:checked + .review-form-policy-label .review-form-custom-checkbox {
@@ -201,7 +203,7 @@
 }
 
 .review-form-policy:checked + .review-form-policy-label .review-form-check-icon {
-  fill: #ffffff;
+  color: #f4f4fd;
 }
 
 .privacy-policy-link {
@@ -213,7 +215,7 @@
 .review-form-submit-btn {
   display: block;
   min-width: 169px;
-  height: 50px;
+  height: 56px;
   margin: 0 auto;
   padding: 16px 32px;
   border: none;
@@ -222,8 +224,8 @@
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.125;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
